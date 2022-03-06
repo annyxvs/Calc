@@ -40,7 +40,7 @@ li #conta {
   border: 2px solid #ffff;
   padding: 10px;
   border-radius: 7px;
-  transition: .2s;
+  transition: .3s;
 }
 
 li #conta:hover {
