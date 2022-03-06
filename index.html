@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <title>calc</title>
+  </head>
+  <body>
+    <header>
+      <div id="logo">
+        <h1>Calc</h1>
+      </div>
+      <ul>
+        <li><a href="#" id="home">home</a></li>
+        <li><a href="#" id="sobre">about</a></li>
+        <li><a href="#" id="conta">create an account?</a></li>
+      </ul>
+    </header>
+    <div class="main">
+      <input type="number" id="num1" placeholder="Insira um número" />
+      <select id="operation">
+        <option id="soma">+</option>
+        <option id="sub">-</option>
+        <option id="mult">*</option>
+        <option id="div">/</option>
+      </select>
+      <input type="number" id="num2" placeholder="Insira outro número" />
+      <button id="calc" onclick="calcular()">Calcular</button>
+      <div id="result"></div>
+    </div>
+    <footer>
+      <p>&copy; anny</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
